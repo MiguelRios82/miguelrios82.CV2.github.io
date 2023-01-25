@@ -1,0 +1,153 @@
+body {
+  border: 5px solid grey;
+  padding: 5px 20px;
+  background-color: rgb(224, 247, 224) !important;
+}
+
+img {
+  padding: 5px;
+  background-color: grey;
+  box-shadow: 0px 0px 15px 0px;
+}
+
+/* Fuente Texto */
+.fn {
+  font-family: "Noto Serif", serif;
+}
+
+#nom {
+  color: rgb(55, 55, 218);
+}
+
+#divs {
+  border: 1px solid gray;
+  padding: 30px;
+  background-color: rgb(198, 224, 198);
+  color: black;
+  font-family: "Noto Serif", serif;
+}
+
+footer p {
+  border: 1px solid grey;
+  background-color: rgb(209, 226, 226);
+  color: rgb(58, 56, 56);
+  font-family: "Noto Serif", serif;
+}
+
+#style-barra {
+  border: 1px solid blue;
+  padding: 15px 20px;
+  font-size: 18px;
+  background-color: rgb(198, 223, 222);
+  color: rgb(55, 55, 218);
+  box-shadow: 0px 0px 10px 0px;
+}
+
+h1 {
+  color: rgb(55, 55, 218) !important;
+}
+
+/* Botones Subir */
+#boton-sub {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: rgb(198, 223, 222);
+  color: rgb(55, 55, 218);
+  box-shadow: 0px 0px 5px 0px;
+}
+
+/* Recuadro Contacto */
+#div-contact {
+  text-align: center;
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 0px 450px;
+  color: rgb(53, 75, 74);
+  background-color: rgb(198, 224, 198);
+}
+
+/* Botones Contacto */
+.style-boton {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 300px;
+  font-size: 20px;
+  color: rgb(55, 55, 218);
+  background-color: rgb(198, 223, 222);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: 0px 0px 10px 0px;
+}
+
+.style-boton:hover {
+  box-shadow: none;
+  background-color: rgb(148, 196, 195);
+  color: black;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+#boton-sub:hover {
+  box-shadow: none;
+  background-color: rgb(148, 196, 195);
+  color: black;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+#style-barra:hover {
+  box-shadow: none;
+  background-color: rgb(148, 196, 195);
+  color: black;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+@media (max-width: 1400px) {
+  #div-contact {
+    margin: 0px 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #div-contact {
+    margin: 0px 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  #div-contact {
+    margin: 0px 100px;
+  }
+  .style-boton {
+    font-size: 15px;
+  }
+  #boton-sub {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  #div-contact {
+    margin: 0px 50px;
+  }
+  #boton-sub {
+    font-size: 12px;
+  }
+  #style-barra {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  #div-contact {
+    margin: 0px 5px;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
